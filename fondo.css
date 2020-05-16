@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-.content{
+.content2{
     background-image: url(img/fondo0.jpg);
     width: 100%;
     height: 600px;
     background-size: cover;
-    position: relative;
+    position: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: center;
     justify-content: center;
     align-items: center;
 }
@@ -19,7 +19,7 @@
     width: 100%;
     height: 100%;
     background-color: cornsilk;
-    position: absolute;
+    position: center;
     opacity: 0.5;
 }
 .content h1, font, h1, h2, h3, h4, p, iframe, table, td, tr, img{
@@ -46,4 +46,12 @@
     font-family: sans-serif;
     text-align: center;
     display: flex;
+}
+.content{
+ background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -47,3 +47,21 @@
     text-align: center;
     display: flex;
 }
+
+ #inferior{
+color: #FFF;
+background: #3333ff;
+position:absolute; /*El div será ubicado con relación a la pantalla*/
+left:0px; /*A la derecha deje un espacio de 0px*/
+right:0px; /*A la izquierda deje un espacio de 0px*/
+bottom:0px; /*Abajo deje un espacio de 0px*/
+height:195px; /*alto del div*/
+z-index:0;
+ }
+        }
+a:link, a:any-link {
+    Color: #FFF;
+}
+a:link, a:visited {
+    color: white;
+}
